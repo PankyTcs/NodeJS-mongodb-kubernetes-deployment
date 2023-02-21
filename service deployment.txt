@@ -1,0 +1,7 @@
+for back-end
+============
+kubectl create service clusterip mongodb-deployment --tcp=27017:27017
+
+for front-end
+=============
+kubectl create service nodeport front-end –-tcp=80:8888
