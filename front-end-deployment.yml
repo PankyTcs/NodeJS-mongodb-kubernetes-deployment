@@ -18,4 +18,4 @@ spec:
       - name: front-end
         image: devopsedu/employee
         ports:
-        - containerPort: 8888
+        - containerPort: 35328
